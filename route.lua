@@ -302,7 +302,7 @@ WorldMapButton.routes = CreateFrame("Frame", "pfQuestRouteDisplay", pfQuest.rout
 WorldMapButton.routes:SetAllPoints()
 
 pfQuest.route.arrow = CreateFrame("Frame", "pfQuestRouteArrow", UIParent)
-pfQuest.route.arrow:SetPoint("CENTER", 0, -100)
+pfQuest.route.arrow:SetPoint("TOP", 0, -10)
 pfQuest.route.arrow:SetWidth(48)
 pfQuest.route.arrow:SetHeight(36)
 pfQuest.route.arrow:SetClampedToScreen(true)

@@ -489,7 +489,7 @@ do -- welcome/init popup dialog
   end)
 
   pfQuestInit:SetScript("OnEvent", function()
-    if pfQuest_config.welcome ~= "1" then
+    if false then
       -- parse current config
       if pfQuest_config["showspawn"] == "0" and pfQuest_config["showcluster"] == "1" then
         config_stage.mode = 1
